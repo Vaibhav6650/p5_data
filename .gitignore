@@ -1,0 +1,7 @@
+_work/
+raw/**/*.xlsx
+raw/**/*.csv
+raw/**/*.txt
+raw/**/*.gmt
+raw/**/*.html
+!raw/**/*.gz

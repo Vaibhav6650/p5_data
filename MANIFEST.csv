@@ -1,0 +1,16 @@
+source,filename,url,download_date,bytes,md5,release/version
+GDSC,GDSC2_fitted_dose_response_27Oct23.xlsx,https://cmp.cog.sanger.ac.uk/download/GDSC2_fitted_dose_response_27Oct23.xlsx,2026-10-26,22112537,7303bf3b53a3cfb8f03e739f51cc810d,GDSC release 8.5 (27Oct23)
+GDSC,screened_compounds_rel_8.5.csv,https://cmp.cog.sanger.ac.uk/download/screened_compounds_rel_8.5.csv,2026-10-26,46414,1f8a7c36e02f3298704063f104b5ff81,GDSC release 8.5
+GDSC/CMP,model_list_latest.csv.gz,https://cog.sanger.ac.uk/cmp/download/model_list_latest.csv.gz,2026-10-26,145029,28f53085bf4db7b855bd8b251ca7d841,"Cell Model Passports model_list_latest (substitute for Cell_Lines_Details.xlsx; already gzip, md5 is of the .gz as downloaded)"
+PRISM,secondary-screen-dose-response-curve-parameters.csv,https://ndownloader.figshare.com/files/20237739,2026-10-26,264340589,e629b9d505ad3d6bf65fde96f1c54bee,Figshare 9393293 v4
+PRISM,secondary-screen-replicate-collapsed-treatment-info.csv,https://ndownloader.figshare.com/files/20237763,2026-10-26,3788355,54765b3639f91cede751378d694e3583,Figshare 9393293 v4
+PRISM,secondary-screen-cell-line-info.csv,https://ndownloader.figshare.com/files/20237769,2026-10-26,40979,6737b4aa9fd85404fd2f0cf825b037e4,Figshare 9393293 v4
+PRISM,secondary-screen-readme.txt,https://ndownloader.figshare.com/files/20238123,2026-10-26,7647,421d0bbadec381adc0d7981ee7e16bd7,Figshare 9393293 v4
+MSigDB,h.all.v2026.2.Hs.symbols.gmt,https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2026.2.Hs/h.all.v2026.2.Hs.symbols.gmt,2026-10-26,48694,c945afd59d949398471c8768fe4d41b0,MSigDB 2026.2.Hs
+BeatAML,beataml_wv1to4_clinical.xlsx,https://github.com/biodev/beataml2.0_data/raw/main/beataml_wv1to4_clinical.xlsx,2026-10-26,488278,e66c8e191b7446ab6cb47f648049230d,"BeatAML2 waves 1-4 (github biodev/beataml2.0_data, main)"
+BeatAML,beataml_waves1to4_norm_exp_dbgap.txt,https://github.com/biodev/beataml2.0_data/raw/main/beataml_waves1to4_norm_exp_dbgap.txt,2026-10-26,281337180,da30e3483cf238b862fba926fcebfbe6,"BeatAML2 waves 1-4 (github biodev/beataml2.0_data, main)"
+BeatAML,beataml_probit_curve_fits_v4_dbgap.txt,https://github.com/biodev/beataml2.0_data/raw/main/beataml_probit_curve_fits_v4_dbgap.txt,2026-10-26,19047078,e17bee701ee42b84e3e98d8a6b117ffd,"BeatAML2 waves 1-4 (github biodev/beataml2.0_data, main)"
+BeatAML,beataml_wes_wv1to4_mutations_dbgap.txt,https://github.com/biodev/beataml2.0_data/raw/main/beataml_wes_wv1to4_mutations_dbgap.txt,2026-10-26,3668996,aed2e5a49914d73c8cb30c931a647604,"BeatAML2 waves 1-4 (github biodev/beataml2.0_data, main)"
+BeatAML,beataml_drug_families.xlsx,https://github.com/biodev/beataml2.0_data/raw/main/beataml_drug_families.xlsx,2026-10-26,59330,8030f4a3800ba182007b680e1333d073,"BeatAML2 waves 1-4 (github biodev/beataml2.0_data, main)"
+BeatAML,LICENSE.txt,https://github.com/biodev/beataml2.0_data/raw/main/LICENSE.txt,2026-10-26,18658,8c8ea597b5ac4c4bd0aa32ef4d8c63cc,"BeatAML2 waves 1-4 (github biodev/beataml2.0_data, main)"
+BeatAML,beataml2_portal_page.html,https://biodev.github.io/BeatAML2/,2026-10-26,8964,eaf293f443cbd392f4791ec00acdaf69,portal page saved as data description
