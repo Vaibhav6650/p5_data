@@ -24,19 +24,24 @@ Unsplit: `gunzip file.gz && md5sum file`
 | raw/beataml/beataml_drug_families.xlsx | 59330 | 8030f4a3800ba182007b680e1333d073 | beataml_drug_families.xlsx.gz |
 | raw/beataml/LICENSE.txt | 18658 | 8c8ea597b5ac4c4bd0aa32ef4d8c63cc | LICENSE.txt.gz |
 | raw/beataml/beataml2_portal_page.html | 8964 | eaf293f443cbd392f4791ec00acdaf69 | beataml2_portal_page.html.gz |
+| raw/depmap/Model.csv | 789805 | a7423dbf345fcf5a822ab5fc7e854e5c | Model.csv.gz |
+| raw/depmap/OmicsCNGeneWGS.csv | 661789195 | 8e5158c0b8c929cf7574f0ae7a7d922a | OmicsCNGeneWGS.csv.gz.part_000, OmicsCNGeneWGS.csv.gz.part_001, OmicsCNGeneWGS.csv.gz.part_002, OmicsCNGeneWGS.csv.gz.part_003 |
+| raw/depmap/OmicsExpressionTPMLogp1HumanProteinCodingGenes.csv | 394997160 | b45585365eb9580bcf4618791ea87f76 | OmicsExpressionTPMLogp1HumanProteinCodingGenes.csv.gz.part_000, OmicsExpressionTPMLogp1HumanProteinCodingGenes.csv.gz.part_001 |
+| raw/depmap/OmicsProfiles.csv | 882568 | 6a025f0c96c66e1cc49086ea9b2f7687 | OmicsProfiles.csv.gz |
+| raw/depmap/OmicsSomaticMutations.csv | 642018258 | 24839b2c674ac449444ca2368bed05db | OmicsSomaticMutations.csv.gz.part_000, OmicsSomaticMutations.csv.gz.part_001 |
 
 Note: `model_list_latest.csv.gz` is stored as downloaded (already gzip); its md5 is of the .gz.
 
 ## Licences
 
 - **GDSC** (Sanger, release 8.5 / GDSC2 27Oct23): GDSC academic terms of use; cite Iorio 2016 / Yang 2013 and the Cell Model Passports. Check the Sanger terms before any commercial use.
-- **DepMap**: licence is per file (mostly CC BY 4.0). DepMap files are NOT in this repo yet (see below).
+- **DepMap**: licence is per file (mostly CC BY 4.0). DepMap files are in `raw/depmap/`.
 - **PRISM Repurposing** (Figshare 9393293 v4): CC BY 4.0 (per Figshare record).
 - **Beat AML** (waves 1-4, processed public files from github.com/biodev/beataml2.0_data): CC BY 4.0 (see `raw/beataml/LICENSE.txt.gz`); processed public data only, no dbGaP raw data.
 - **MSigDB Hallmark** (2026.2.Hs): CC BY 4.0 (see gsea-msigdb.org licence page).
 
 ## Not included
 
-- **DepMap** (Model.csv, expression log2(TPM+1), OmicsSomaticMutations.csv, OmicsCNGene.csv, profile mapping): file-list API is behind a Cloudflare browser check; must be downloaded by hand from https://depmap.org/portal/data_page/ into `raw/depmap/`.
+- **DepMap**: files downloaded manually in a browser (Cloudflare blocks the file-list API). Release name was not recorded; CN file is `OmicsCNGeneWGS.csv`, expression is `OmicsExpressionTPMLogp1HumanProteinCodingGenes.csv`, mapping is `OmicsProfiles.csv`. Fill the release name in MANIFEST.csv.
 - **GDSC Cell_Lines_Details.xlsx**: no longer published; cancerrxgene.org bulk page redirects to Cell Model Passports. `model_list_latest.csv.gz` (CMP) is the successor annotation.
 - No separate README exists for GDSC/Beat AML repos; Beat AML portal page saved as `beataml2_portal_page.html.gz`.

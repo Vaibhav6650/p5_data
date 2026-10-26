@@ -14,3 +14,8 @@ BeatAML,beataml_wes_wv1to4_mutations_dbgap.txt,https://github.com/biodev/beataml
 BeatAML,beataml_drug_families.xlsx,https://github.com/biodev/beataml2.0_data/raw/main/beataml_drug_families.xlsx,2026-10-26,59330,8030f4a3800ba182007b680e1333d073,"BeatAML2 waves 1-4 (github biodev/beataml2.0_data, main)"
 BeatAML,LICENSE.txt,https://github.com/biodev/beataml2.0_data/raw/main/LICENSE.txt,2026-10-26,18658,8c8ea597b5ac4c4bd0aa32ef4d8c63cc,"BeatAML2 waves 1-4 (github biodev/beataml2.0_data, main)"
 BeatAML,beataml2_portal_page.html,https://biodev.github.io/BeatAML2/,2026-10-26,8964,eaf293f443cbd392f4791ec00acdaf69,portal page saved as data description
+DepMap,Model.csv,https://depmap.org/portal/data_page/,2026-10-26,789805,a7423dbf345fcf5a822ab5fc7e854e5c,DepMap public release - name not recorded (manual browser download; file names match current portal)
+DepMap,OmicsCNGeneWGS.csv,https://depmap.org/portal/data_page/,2026-10-26,661789195,8e5158c0b8c929cf7574f0ae7a7d922a,DepMap public release - name not recorded (manual browser download; file names match current portal)
+DepMap,OmicsExpressionTPMLogp1HumanProteinCodingGenes.csv,https://depmap.org/portal/data_page/,2026-10-26,394997160,b45585365eb9580bcf4618791ea87f76,DepMap public release - name not recorded (manual browser download; file names match current portal)
+DepMap,OmicsProfiles.csv,https://depmap.org/portal/data_page/,2026-10-26,882568,6a025f0c96c66e1cc49086ea9b2f7687,DepMap public release - name not recorded (manual browser download; file names match current portal)
+DepMap,OmicsSomaticMutations.csv,https://depmap.org/portal/data_page/,2026-10-26,642018258,24839b2c674ac449444ca2368bed05db,DepMap public release - name not recorded (manual browser download; file names match current portal)
